@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2397" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Nuovo 50X WLA" version="1.0.1" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="1000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,it_IT"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- LIT €10 -->
+            <paymodel modelid="300-2397-001"  revealId="4907" revealVersionId="4883"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Nuovo 50X WLA : 300-2397-001"
+                      hibethold="23.34" lobethold="23.34"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2397-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2397-001" clienttype="HTML" configcode="PHLP"/> 
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
